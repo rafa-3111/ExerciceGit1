@@ -1,1 +1,5 @@
-Hello World -- MH
+Hello World -- SF
+
+VS Code >> Terminal >> Bash
+bash -c "nano helloworld.txt" 
+
