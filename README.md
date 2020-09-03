@@ -1,3 +1,98 @@
+***** Ce que j'ai fait *****
+Participant : Jocelyn Tétreault
+1- grace à github desktop
+  a- j'ai créer un ropository su mon ordi local
+  b- cloner le liens offert dans le copy to clipboard ce qui a copier la version serveur
+2- grace à Git Bash que j'ai fait ouvrir directement sur le bon repertoire voicie une copie d'écran des opérations
+3- Et je l'ai retourner sur mon serveur pour pouvour vous y donner acces
+
+*** Copy/Paste de l'espace de travail "Git Bash" *****
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux
+$ git clone https://github.com/MathieuHoude/ExerciceGit1.git CodeBoxx_Exercice-Git-01
+Cloning into 'CodeBoxx_Exercice-Git-01'...
+remote: Enumerating objects: 83, done.
+remote: Counting objects: 100% (83/83), done.
+remote: Compressing objects: 100% (69/69), done.
+remote: Total 187 (delta 5), reused 74 (delta 1), pack-reused 104
+Receiving objects: 100% (187/187), 32.21 KiB | 3.58 MiB/s, done.
+Resolving deltas: 100% (15/15), done.
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux
+$ cd CodeBoxx_Exercice-Git-01
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ ls
+helloworld.txt  README.md
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ dir
+helloworld.txt  README.md
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ echo "hello world"
+hello world
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ echo "Hello world -- JT" >> ./test
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ echo "Hello world -- JT" >> ./test
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ cat ./test
+Hello world -- JT
+Hello world -- JT
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ cat ./helloworld.txt
+Hello World -- MH
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ echo "Hello world -- JT" >> ./helloworld.txt
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ cat ./helloworld.txt
+Hello World -- MH
+Hello world -- JT
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ dir
+helloworld.txt  README.md  test
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ rm test
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ dir
+helloworld.txt  README.md
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$ git add .
+warning: LF will be replaced by CRLF in helloworld.txt.
+The file will have its original line endings in your working directory
+
+Jocelyn Tétreault@MsiZ97G43 MINGW64 /t/Projets/Developpement/CodeBoxx/Traveaux/CodeBoxx_Exercice-Git-01 (master)
+$
+
+
+je ne peux monitorer 
+git commit -am "lire readme pour plus de detail"
+git push
+
+sinon ce fichier ne serais pas updater
+
+**********
++-----------------------------------------------------------------------------------------+
+| Vous remarquerez que J'ai inclus la validation du fonctionnement                        |
+| Et aussi pris soint de respecter à 100% le format (Majuscule, Minuscule, et espacement) |
+| du travail déja effectuer sur le fichier et de terminer en supprimer les tests devenue  |
+| inutile. En plus de fournir un documentation maximal du travail effectuer.              |
+|                                                                                         |
+| espérant que le tous sauras répondre au besoins exprimer.  Jocelyn Tétreault            |               
++-----------------------------------------------------------------------------------------+
+
+
 # Exercice Git #1
 ## Clone, Branch, Add, Commit, Push
 
