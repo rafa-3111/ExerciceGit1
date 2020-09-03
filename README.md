@@ -1,6 +1,6 @@
 # Exercice Git #1
 ## Clone, Branch, Add, Commit, Push
-
+allo
 Pour cet exercice vous devez modifier le fichier helloworld.txt pour y ajouter votre propre Hello World avec vos initiales.
 
 Le fichier txt doit être modifié **uniquement à l'aide du CLI de votre choix**. Donc pas le droit de seulement modifier le fichier dans un éditeur.
