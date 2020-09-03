@@ -1,1 +1,3 @@
 Hello World -- MH
+Hello World -- JD 
+I installed Vim and used it on the terminal.
