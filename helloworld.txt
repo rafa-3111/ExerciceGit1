@@ -1,2 +1,2 @@
-Hello World -- MH
-Hello World -- JG 2
+Hello World -- SC
+Command Prompt
